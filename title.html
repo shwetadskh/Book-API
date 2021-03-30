@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="title.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    
+
+</head>
+   <!-- Navbar with Search -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="https://img.flaticon.com/icons/png/512/29/29302.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt=""
+                width="50" height="35">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link largeF" href="author.html">Authors</a>
+            </li>
+              <li class="nav-item">
+                    <a class="nav-link largeF" aria-current="page" href="subject.html">Genres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link largeF" href="title.html" aria-disabled="true">Titles</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+<body>
+    
+<div class="container mt-2">
+    <h1 class="text-center">Search By Title</h1>
+    <form action="" class="row g-3 justify-content-center row111">
+        <div class="col-auto">
+            <input type="text" class="" id="search" placeholder="Title Name" />
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary" id="submit">
+                Search
+              </button>
+        </div>
+    </form>
+
+    <div class="container-fluid bg-3 text-center">
+        <!-- first row -->
+      <div class="row">
+        <div class="col-md-4 border overflow-hidden p-3">
+          <div class="card h-100">
+          <p class="largeF" id="title0"></p>
+          <img id="book0" src="" class="img-responsive" style="height: 100%" alt="book result"/>
+          <p id="desc0"></p>
+        </div>
+        </div>
+        <div class="col-md-4 border overflow-hidden p-3">
+          <div class="card h-100">
+          <p class="largeF" id="title1"></p>
+          <img id="book1" src="" class="img-responsive" style="height: 100%" alt="book result"/>
+          <p id="desc1"></p>
+        </div>
+        </div>
+        <div class="col-md-4 border overflow-hidden p-3">
+          <div class="card h-100">
+          <p class="largeF" id="title2"></p>
+          <img id="book2" src="" class="img-responsive" style="height: 100%" alt="book result"/>
+          <p id="desc2"></p>
+        </div>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="row">
+        <div class="col-md-4 border overflow-hidden p-3">
+          <div class="card h-100">
+          <p class="largeF" id="title3" class="fs-1"></p>
+          <img id="book3" src="" class="img-responsive" style="width: 100%" alt="book result"/>
+          <p id="desc3"></p>
+        </div>
+      </div>
+        <div class="col-md-4 border overflow-hidden p-3">
+          <div class="card h-100">
+          <p class="largeF" id="title4" class="fs-2"></p>
+          <img id="book4" src="" class="img-responsive" style="width: 100%" alt="book result"/>
+          <p id="desc4"></p>
+        </div>
+      </div>
+            <div class="col-md-4 border overflow-hidden p-3">
+            <div class="card h-100">
+            <p class="largeF" id="title5" class="fs-3"></p>
+            <img id="book5" src="" class="img-responsive" style="width: 100%" alt="book result"/>
+            <p id="desc5"></p>
+            </div>
+        </div>
+      </div>
+     </div>
+    </div>
+
+</div>
+
+    <script src=title.js></script>
+</body>
+</html>
